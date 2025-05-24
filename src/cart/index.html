@@ -2,13 +2,13 @@
 
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
+    <meta charset="UTF-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Sleep Outside | Cart</title>
 
-    <link rel="stylesheet" href="/css/style.css" >
+    <link rel="stylesheet" href="../css/style.css" />
 
     <script src="../js/cart.js" type="module"></script>
   </head>
@@ -16,8 +16,8 @@
   <body>
     <header class="divider">
       <div class="logo">
-        <img src="/images/noun_Tent_2517.svg" alt="tent image for logo" >
-        <a href="/index.html"> Sleep<span class="highlight">Outside</span></a>
+        <img src="../images/noun_Tent_2517.svg" alt="tent image for logo" />
+        <a href="../index.html"> Sleep<span class="highlight">Outside</span></a>
       </div>
 
       <div class="cart">
@@ -57,6 +57,9 @@
     <main class="divider">
       <section class="products">
         <h2>My Cart</h2>
+        <p id="empty-cart-message" class="error-message" style="display: none">
+          Your cart is currently empty.
+        </p>
 
         <ul class="product-list">
           <!-- <li class="cart-card divider">

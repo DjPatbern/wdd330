@@ -30,6 +30,13 @@ img {
   max-width: 100%;
 }
 
+.error-message {
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+
 header {
   display: flex;
   justify-content: space-between;
